@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: mamlukishay
+  api_key: '729311283561333'
+  api_secret: fQ2bWSI9skhZgzHSdHnALBINWE0
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: mamlukishay
+  api_key: '729311283561333'
+  api_secret: fQ2bWSI9skhZgzHSdHnALBINWE0
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: mamlukishay
+  api_key: '729311283561333'
+  api_secret: fQ2bWSI9skhZgzHSdHnALBINWE0
+  enhance_image_tag: true
+  static_image_support: false

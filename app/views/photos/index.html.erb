@@ -1,0 +1,9 @@
+<div class="photos">
+  <%= render @photos %>
+
+  <%= form_for Photo.new do |f| %>
+    <%= f.file_field :picture %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
+  <% end %>
+</div>

@@ -1,0 +1,4 @@
+<%= cl_image_tag(photo.name, transformation: [
+  {crop: :fill, width: 400, height: 200, gravity: 'face:center', radius: 20},
+  {color: "#eee", overlay: "text:Doppio%20One_20:#{photo.name.gsub(/\..*/, "")}", x: 10 , y: 5 , gravity: :south_west}
+  ]) %>
